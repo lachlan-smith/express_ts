@@ -17,7 +17,7 @@
         "build": "tsc",
         "start": "npm run build && node build/index.js",
         "start:dev": "nodemon",
-        "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
+        "lint": "eslint \"*/**/*.ts\" --quiet --fix",
         "format": "prettier \"*/**/*.ts\" --write"
     },
     "husky": {
